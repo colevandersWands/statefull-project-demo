@@ -23,7 +23,7 @@ function merge(arr1, arr2) {
 console.groupCollapsed('%c merge( arr1, arr2 ) -> arr', 'font-weight:bold');
 console.log('takes in two sorted arrays of numbers and sort-merges them');
 console.log(merge.toString());
-console.log(merge_tests);
+console.log('test_cases: ', merge_tests);
 console.groupEnd();
 run_tests(merge, merge_tests, false);
 

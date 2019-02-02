@@ -25,6 +25,6 @@ function uniquify(arr) {
 console.groupCollapsed('%c uniquify( arr ) -> arr', 'font-weight:bold');
 console.log('takes in an array of sorted numbers, returns an array with duplicates removed');
 console.log(uniquify.toString());
-console.log(uniquify_tests);
+console.log('test_cases: ', uniquify_tests);
 console.groupEnd();
 run_tests(uniquify, uniquify_tests, false);

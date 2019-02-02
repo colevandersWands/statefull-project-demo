@@ -14,7 +14,7 @@ function str_identity(str) {
 console.groupCollapsed('%c str_identity( string ) -> string', 'font-weight:bold');
 console.log('takes in a string and returns the same string by embedping then debedping it');
 console.log(str_identity.toString());
-console.log(str_identity_tests);
+console.log('test_cases: ', str_identity_tests);
 console.groupEnd();
 run_tests(str_identity, str_identity_tests, false);
 
@@ -32,7 +32,7 @@ function arr_identity(str) {
 console.groupCollapsed('%c arr_identity( arr[charcodes] ) -> arr[charcodes]', 'font-weight:bold');
 console.log('takes in an arr[charcodes] and returns the same arr after debedping & embedping it');
 console.log(arr_identity.toString());
-console.log(arr_identity_tests);
+console.log('test_cases: ', arr_identity_tests);
 console.groupEnd();
 run_tests(arr_identity, arr_identity_tests, false);
 
@@ -50,7 +50,7 @@ function full_thing(str) {
 console.groupCollapsed('%c full_thing( string ) -> string', 'font-weight:bold');
 console.log('takes in a string and returns the unique charecters sorted by charcode');
 console.log(full_thing.toString());
-console.log(full_thing_tests);
+console.log('test_cases: ', full_thing_tests);
 console.groupEnd();
 run_tests(full_thing, full_thing_tests, false);
 

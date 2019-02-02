@@ -19,6 +19,6 @@ function debed(arr) {
 console.groupCollapsed('%c debed( arr[charcodes] ) -> string', 'font-weight:bold');
 console.log('takes in an array of charcodes, returns the corresponding string');
 console.log(debed.toString());
-console.log(debed_tests);
+console.log('test_cases: ', debed_tests);
 console.groupEnd();
 run_tests(debed, debed_tests, false);

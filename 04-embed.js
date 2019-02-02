@@ -20,6 +20,6 @@ function embed(str) {
 console.groupCollapsed('%c embed( string ) -> arr[charcodes]', 'font-weight:bold');
 console.log('takes in a string and embeds it to an array of charcodes');
 console.log(embed.toString());
-console.log(embed_tests);
+console.log('test_cases: ', embed_tests);
 console.groupEnd();
 run_tests(embed, embed_tests, false);

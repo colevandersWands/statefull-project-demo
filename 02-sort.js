@@ -26,6 +26,6 @@ function sort(arr) {
 console.groupCollapsed('%c sort( arr ) -> arr', 'font-weight:bold');
 console.log('takes in an array of numbers, returns a sorted array of numbers');
 console.log(sort.toString());
-console.log(sort_tests);
+console.log('test_cases: ', sort_tests);
 console.groupEnd();
 run_tests(sort, sort_tests, false);
