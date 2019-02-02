@@ -1,6 +1,6 @@
 ## [Statefull Demo Project](https://janke-learning.github.io/statefull-demo-project)
 
-Building a project like this is a challenge for a first year of study, or a reasonable expectation for part-way through a second year.  None of the individual functions are overly challenging while the entirety of the project requires a meaningful mastery of organized development, applied computation, inspecting & debugging, documentation, and attention to a (almost) fun user experience.  
+Building a project like this is realistic after a first year of study, or a reasonable expectation for part-way through a second year.  None of the individual functions are overly challenging while the entirety of the project requires a meaningful mastery of organized development, applied computation, inspecting & debugging, documentation, and attention to a (almost) fun user experience.  
 
 Additionally students learn about data modeling, how applications are built of interactions around modeled & stored data.  This understanding is foundational to further progress in applied computing, data sciences, application development, and basic understanding of digitalization.
 
