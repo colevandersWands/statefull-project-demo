@@ -19,4 +19,3 @@ const challenges_schema = {
 console.groupCollapsed('%c challenges: object of game challenges', 'font-weight:bold');
 console.log('challenges_schema: ', challenges_schema);
 console.groupEnd();
-run_tests(str_identity, str_identity_tests, false);
