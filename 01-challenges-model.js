@@ -1,3 +1,4 @@
+// written first by hand to understand
 const challenges = {
   'racecar': { input: [114, 97, 99, 101, 99, 97, 114], 
       sorted: [97, 97, 99, 99, 101, 114, 114], 
