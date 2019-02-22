@@ -10,9 +10,11 @@ function save_challenge() {                                 var new_entry = {};
   var uniques = uniquify(sorted);                           new_entry['4. uniques'] = uniques;
                                                             log.push(new_entry);
 
-  challenges[input] = { input: embedded,
+  var next_id = model.next_id;
+  model.challenges[next_id] = { input: embedded,
                    sorted: sorted,
                    chars: uniques };
+  model.next_id += 1;
 
 };
 

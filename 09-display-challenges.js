@@ -8,8 +8,8 @@ function display_challenges() {                               var new_entry = {}
       output_div.removeChild(output_div.firstChild);
   };
 
-  for (const entry_name in challenges) {
-    var entry = challenges[entry_name];
+  for (const id in model.challenges) {
+    var entry = model.challenges[id];
 
     var input = debed(entry.input);                           
     var sorted = debed(entry.sorted);
