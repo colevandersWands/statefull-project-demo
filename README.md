@@ -1,4 +1,4 @@
-## [Statefull Demo Project](https://janke-learning.github.io/statefull-demo-project)
+## [Statefull Demo Project](https://janke-learning.github.io/statefull-project-demo)
 
 Building a project like this is realistic after a first year of study, or a reasonable expectation for part-way through a second year.  None of the individual functions are overly challenging while the entirety of the project requires a meaningful mastery of organized development, applied computation, inspecting & debugging, documentation, and attention to a (almost) fun user experience.  
 
